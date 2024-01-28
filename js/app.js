@@ -20,7 +20,7 @@ function cargarEventListeners() {
         limpiarHTML(); // Eliminamos todo el HTML
     });
 
-    // Obtener info de LocalStorage
+    // Obtener info de LocalStorage para mostrar los cursos
     document.addEventListener('DOMContentLoaded', () => {
         articulosCarrito = JSON.parse(localStorage.getItem('carrito') || []);
         carritoHTML();
